@@ -1,0 +1,84 @@
+/* shared styles */
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.btn-primary{
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: 0px;
+    padding: 15px 35px 15px 35px;
+    padding-bottom: 17px;
+    color: var(--white-color, #FFF);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+
+
+
+
+/* nav css */
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 200px;
+    margin-left: 200px;
+    margin-bottom: 0px;
+
+}
+.nav-title {
+    color: #181818;
+    font: optional;
+    font-size : 45px;
+    font-style : normal;
+    font-weight : 900;
+    line-height : normal;
+}
+.orange{
+    color: #FD6E0A;
+}
+
+.nav-items {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-left: 30px;
+}
+nav a {
+     text-decoration: none;
+}
+
+
+/* poster  */
+
+.header{
+    background-color: #FFF8F3;
+    background-image: url('..//images/header_bg.png') ;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+
+}
+
+.poster{
+    margin-left: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.intro{
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.p-title{
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
